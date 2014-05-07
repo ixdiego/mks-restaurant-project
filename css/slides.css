@@ -1,0 +1,71 @@
+/* SlidesJS */
+/* These styles are required if you'd like a responsive slideshow */
+  
+
+    /* Prevent the slideshow from flashing on load */
+    #slides {
+        display: none;
+        position: relative;
+        background: #fffdf0;
+    }
+
+    .slidesjs-pagination {
+        display: none;
+    }
+
+    .slidesjs-navigation {
+        margin: -10px 0 0 0;
+        position: absolute;
+        top: 50%; z-index: 9999;
+    }
+
+    .slidesjs-previous {
+        display: block;
+        width: 29px; height: 44px;
+        text-indent: -9999px;
+        left: 50px;
+        background: url('../images/slide-prev.png') no-repeat;
+    }
+
+    .slidesjs-next {
+        display: block;
+        width: 29px; height: 44px;
+        text-indent: -9999px;
+        right: 50px;
+        background: url('../images/slide-next.png') no-repeat;
+    }
+
+
+    /* Media quires for a responsive layout */
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }

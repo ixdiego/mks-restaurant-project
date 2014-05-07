@@ -1,0 +1,129 @@
+/* ---------------------------------------------- */
+/* Styles --------------------------------------- */
+/* ---------------------------------------------- */
+
+body {
+    margin: 0;
+    /* TODO use the Google Font 'Bitter' */
+    font-size: 100%;
+}
+
+div, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
+    /* TODO because we are using Foundation, we have to override Foundation's default font family. Use the Google Font 'Bitter' here. */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* TODO make the font color of all our headers #fffdf0 */
+}
+
+/* ---------------------------------------------- */
+/* Header --------------------------------------- */
+/* ---------------------------------------------- */
+
+header {}
+
+header h1 {
+    /* TODO make the font size larger than Foundation's default; I uesd 4.5em */
+    /* TODO add a text-shadow on the h1 using rgba(34, 28, 18,.75) */
+}
+
+header .tagline h4 {
+    /* TODO make the tagline italic; you'll have to work hard to override Foundation's font-style: normal on all headers! */
+    /* TODO add the same text-shadow */
+}
+
+header .tagline {
+    /* TODO center the text */
+    background: rgba(34, 28, 18,.5); /* I added this transparent background bar for you. */
+    /* TODO add some padding to give it space around the text */
+    /* TODO absolutely position the tagline bar at top: 35%. add a width so that it goes all the way across. */
+    /* TODO when you make the slideshow work, the tagline will get hidden. why? what line of CSS do you have to write to make it appear ABOVE the slideshow? */
+}
+
+
+
+
+/* ---------------------------------------------- */
+/* Sections Global Styles ----------------------- */
+/* ---------------------------------------------- */
+
+section {
+    padding: 2em;
+    background: #ccc;
+    line-height: 1.5em;
+}
+
+
+/* ---------------------------------------------- */
+/* Address, Hours, Directions ------------------- */
+/* ---------------------------------------------- */
+
+.address {
+    /* TODO give this section a background of #221c12 and a color of #fffdf0. make the text centered */
+}
+
+.location,
+.hours {
+    /* TODO give these two divs some padding so that they line up with the map */
+}
+
+.hours-label { /* TODO style these with the appropriate font styles (bold/italic) */ }
+.hours-value { /* TODO style these with the appropriate font styles (bold/italic) */ }
+
+
+
+/* ---------------------------------------------- */
+/* Menu ----------------------------------------- */
+/* ---------------------------------------------- */
+
+.menu {
+    /* TODO give this section a color of #221c12 and a background of #fffdf0. give it some bottom padding so there's space below the text. */
+}
+
+.menu h2 {
+    /* TODO make this font size larger than the Foundation default */
+}
+
+.menu h2, .menu h3, .menu h4 {
+    /* TODO give these headers a color of #221c12 */
+}
+
+
+/* TODO center the text of the h2 and menu-section */
+
+.menu-section h3 a {
+    /* TODO make menu section links a semi-transparent color rgba(34, 28, 18, .75). give them a 3px bottom border and give it a bit of space */
+    /* TODO give the menu section links a CSS transition so that when you hover them, the color fades in slowly */
+}
+
+
+/* TODO on the menu section links, when hovered, make them the same color but 100% opacity instead of 75% (.75) and make the bottom border the same color. */
+
+/* TODO on the ACTIVE menu section links, make them look the same as hovered ones. How do you know if they are active? */
+
+.menu-section-content {
+    /* TODO give this some space below the menu links */
+}
+
+
+.menu-item {
+    /* TODO give each menu item some bottom margin */
+}
+
+/* TODO style the menu-item-name to be bold */
+
+/* TODO style the menu-item-description to be italic and be in one line with the price. You don't need to use Foundation classes to do this, but if you want to try and see, go for it! */
+
+/* TODO style the menu-item-price to be bold, 50% opacity, in line with the description but have some space to the left of it. */
+
+
+/* ---------------------------------------------- */
+/* Social Media/Contact ------------------------- */
+/* ---------------------------------------------- */
+
+.contact {
+    /* TODO add the dark brown background color, and the background image symbols-bottom. Change the background-position so that the bottom of it shows (where the symbols start to fade out). */
+    /* TODO add some top and bottom padding so that the content doesn't overlap the background image. Note how the padding changes the location of the background image. */
+}
+
+/* TODO make the .social-links links be displayed in a row with some space between them. make them 50% opacity, and fade to 100% opacity when you hover over them. */

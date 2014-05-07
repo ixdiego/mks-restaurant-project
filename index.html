@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Chavez | Restaurant by Shawn Cirkiel | at the Radisson, Austin, TX</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Google Fonts -->
+        <!-- TODO We're going to use the Google Font 'Bitter'. https://www.google.com/fonts#UsePlace:use/Collection:Bitter Link to it here -->
+
+        <!-- Foundation CSS -->
+        <!-- TODO link to foundation's normalize.css -->
+        <!-- TODO link to foundation's foundation.min.css -->
+
+
+        <!-- Our CSS -->
+        <link rel="stylesheet" href="css/application.css">
+
+        <!-- Slides.js CSS -->
+        <link rel="stylesheet" href="css/slides.css">
+
+    </head>
+    <body>
+
+        <!-- Slide/Header Image -->
+        <header>
+
+            <!-- Tagline inside Slideshow -->
+            <div class="tagline">
+                <!-- Chavez name/logo -->
+                <h1>Chavez</h1>
+                <h4>the new restaurant by shawn cirkiel</br>poolside at the radisson</h4>
+            </div>
+
+            <img src="images/chavez-1.jpg" alt="">
+            <!-- TODO there are ten images in the images folder. write image tages for each of them. then wrap the images in a #slides div so that Slides JS knows how to find them -->
+        </header>
+
+        <!-- Address, map, hours -->
+        <section class="address">
+            <!-- TODO add a foundation row wrapping this content. do you know why you would add it here as a div, instead of as a class on the section.address? -->
+
+                <!-- TODO for each of these 3 divs, add foundation columns so that they sit side by side -->
+                <div class="location">
+                    <!-- TODO link and style this content -->
+                    at the Radisson Hotel
+                    111 east cesar chavez
+                    austin, texas 78701
+                    512.478.2291
+                </div>
+
+                <div class="map">
+                    <!-- TODO there is a map image in the images folder, link to it and make the link to go this google map: goo.gl/maps/qgnVW -->
+                </div>
+
+                <div class="hours">
+                    <!-- TODO style this content. use the classes .hours-label and .hours-value to determine which part is which and style it -->
+                    breakfast: 6:30–11am 
+                    lunch: 11am–3pm 
+                    limited menu: 3–5pm 
+                    dinner: 5–10pm
+                </div>
+
+        </section>
+
+        <!-- Menu -->
+        <section class="menu">
+            <div class="row">
+                <h2>Menus</h2>
+            </div>
+                
+            <!-- TODO add a foundation row -->
+                <!-- TODO write the following HTML for each of the menus: breakfast, lunch, dinner, dessert, cocktails, and wine. Give them a small-2 columns so they line up appropriately next to each other. One of them is active in the mockup. Which one? What kind of classname would you add to show that it is active? -->
+                <div class="menu-section">
+                    <h3>
+                        <!-- TODO later we will write JavaScript to toggle the menu sections, using this link -->
+                        <a href="#"> 
+                            <!-- TODO name of menu section -->
+                        </a>
+                    </h3>
+                </div>
+
+            <!-- TODO add a foundation row -->
+                <div class="menu-section-content menu-dinner is-active">
+                    <!-- TODO we'll add the dinner menu content here. Write two columns with the class .menu-group and the foundation column classes. -->
+                        <!-- TODO Inside each .menu-group, there should be an h4 with the title. -->
+                        <!-- TODO for each item on the menu, write a div.menu-item. -->
+                            <!-- TODO inside each div.menu-item, there should be a div.menu-item-name, a p.menu-item-description, and a div.menu-item-price. -->
+                            <!-- TODO we are going to do ONLY the "Raw Bar" and "Entrees" section of the dinner menu for now. We'll add more with JSON later. -->
+                </div>
+
+        </section>
+
+        <!-- Social media -->
+        <section class="contact">
+
+            <!-- TODO add a foundation row wrapping this content. do you know why you would add it here as a div, instead of as a class on the section.address? -->
+
+                <!-- TODO for each of these 3 divs, add foundation columns so that they sit side by side -->
+                <div class="email">
+                    <h5>Email</h5>
+                    <!-- TODO make this an email link -->
+                    info@chavez-austin.com
+                </div>
+
+                <div class="social">
+                    <h5>Social Media</h5>
+                    <!-- TODO write a div.social-links. -->
+                        <!-- TODO inside that div, write a link that links to the social media links, and use the social media images in the image folder. -->
+                            <!-- TODO Facebook http://facebook.com/ChavezATX -->
+                            <!-- TODO Twitter http://twitter.com/ChavezATX -->
+                            <!-- TODO Instagram http://instagram.com/ChavezATX -->
+                </div>
+
+                <div class="press columns small-4">
+                    <h5>Press Inquiries</h5>
+                    <!-- TODO make this an email link -->
+                    press@chavezrestaurant.com
+                </div>
+                
+            </div>
+
+        </section>
+
+
+        <!-- JavaScripts -->
+
+        <!-- jQuery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+        <!-- Foundation JS -->
+        <script src="/js/foundation.min.js"></script>
+        <script>
+            $(document).foundation();
+        </script>
+
+        <!-- Slides.js -->
+        <!-- TODO link to the slides.min.js file -->
+        <!-- TODO write the .slidesjs() code to make the slideshow work -->
+
+
+    </body>
+</html>
